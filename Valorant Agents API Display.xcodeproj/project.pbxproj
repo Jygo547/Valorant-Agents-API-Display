@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D79A59602AD0B2B1005F74BC /* Valorant_Agents_API_DisplayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79A595F2AD0B2B1005F74BC /* Valorant_Agents_API_DisplayApp.swift */; };
+		D79A59642AD0B2B3005F74BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79A59632AD0B2B3005F74BC /* Assets.xcassets */; };
+		D79A59682AD0B2B4005F74BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79A59672AD0B2B4005F74BC /* Preview Assets.xcassets */; };
+		D79A59722AD0B2B4005F74BC /* Valorant_Agents_API_DisplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79A59712AD0B2B4005F74BC /* Valorant_Agents_API_DisplayTests.swift */; };
+		D79A597C2AD0B2B4005F74BC /* Valorant_Agents_API_DisplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79A597B2AD0B2B4005F74BC /* Valorant_Agents_API_DisplayUITests.swift */; };
+		D79A597E2AD0B2B4005F74BC /* Valorant_Agents_API_DisplayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79A597D2AD0B2B4005F74BC /* Valorant_Agents_API_DisplayUITestsLaunchTests.swift */; };
+		D79A598B2AD0B327005F74BC /* ValorantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79A598A2AD0B327005F74BC /* ValorantModel.swift */; };
+		D79A598D2AD0B8FF005F74BC /* ValorantListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79A598C2AD0B8FF005F74BC /* ValorantListViewModel.swift */; };
+		D79A598F2AD0B961005F74BC /* ValorantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79A598E2AD0B961005F74BC /* ValorantView.swift */; };
+		D79A59912AD0BB5C005F74BC /* ValorantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79A59902AD0BB5C005F74BC /* ValorantDetailView.swift */; };
+		D79A59932AD0BB92005F74BC /* ValorantDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79A59922AD0BB92005F74BC /* ValorantDetailViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D79A596E2AD0B2B4005F74BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79A59542AD0B2B1005F74BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D79A595B2AD0B2B1005F74BC;
+			remoteInfo = "Valorant Agents API Display";
+		};
+		D79A59782AD0B2B4005F74BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79A59542AD0B2B1005F74BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D79A595B2AD0B2B1005F74BC;
+			remoteInfo = "Valorant Agents API Display";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D79A595C2AD0B2B1005F74BC /* Valorant Agents API Display.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Valorant Agents API Display.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79A595F2AD0B2B1005F74BC /* Valorant_Agents_API_DisplayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Valorant_Agents_API_DisplayApp.swift; sourceTree = "<group>"; };
+		D79A59632AD0B2B3005F74BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D79A59652AD0B2B3005F74BC /* Valorant_Agents_API_Display.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Valorant_Agents_API_Display.entitlements; sourceTree = "<group>"; };
+		D79A59672AD0B2B4005F74BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D79A596D2AD0B2B4005F74BC /* Valorant Agents API DisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Valorant Agents API DisplayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79A59712AD0B2B4005F74BC /* Valorant_Agents_API_DisplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Valorant_Agents_API_DisplayTests.swift; sourceTree = "<group>"; };
+		D79A59772AD0B2B4005F74BC /* Valorant Agents API DisplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Valorant Agents API DisplayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79A597B2AD0B2B4005F74BC /* Valorant_Agents_API_DisplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Valorant_Agents_API_DisplayUITests.swift; sourceTree = "<group>"; };
+		D79A597D2AD0B2B4005F74BC /* Valorant_Agents_API_DisplayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Valorant_Agents_API_DisplayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D79A598A2AD0B327005F74BC /* ValorantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorantModel.swift; sourceTree = "<group>"; };
+		D79A598C2AD0B8FF005F74BC /* ValorantListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorantListViewModel.swift; sourceTree = "<group>"; };
+		D79A598E2AD0B961005F74BC /* ValorantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorantView.swift; sourceTree = "<group>"; };
+		D79A59902AD0BB5C005F74BC /* ValorantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorantDetailView.swift; sourceTree = "<group>"; };
+		D79A59922AD0BB92005F74BC /* ValorantDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorantDetailViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D79A59592AD0B2B1005F74BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79A596A2AD0B2B4005F74BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79A59742AD0B2B4005F74BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D79A59532AD0B2B1005F74BC = {
+			isa = PBXGroup;
+			children = (
+				D79A595E2AD0B2B1005F74BC /* Valorant Agents API Display */,
+				D79A59702AD0B2B4005F74BC /* Valorant Agents API DisplayTests */,
+				D79A597A2AD0B2B4005F74BC /* Valorant Agents API DisplayUITests */,
+				D79A595D2AD0B2B1005F74BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D79A595D2AD0B2B1005F74BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D79A595C2AD0B2B1005F74BC /* Valorant Agents API Display.app */,
+				D79A596D2AD0B2B4005F74BC /* Valorant Agents API DisplayTests.xctest */,
+				D79A59772AD0B2B4005F74BC /* Valorant Agents API DisplayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D79A595E2AD0B2B1005F74BC /* Valorant Agents API Display */ = {
+			isa = PBXGroup;
+			children = (
+				D79A595F2AD0B2B1005F74BC /* Valorant_Agents_API_DisplayApp.swift */,
+				D79A598A2AD0B327005F74BC /* ValorantModel.swift */,
+				D79A598C2AD0B8FF005F74BC /* ValorantListViewModel.swift */,
+				D79A598E2AD0B961005F74BC /* ValorantView.swift */,
+				D79A59922AD0BB92005F74BC /* ValorantDetailViewModel.swift */,
+				D79A59902AD0BB5C005F74BC /* ValorantDetailView.swift */,
+				D79A59632AD0B2B3005F74BC /* Assets.xcassets */,
+				D79A59652AD0B2B3005F74BC /* Valorant_Agents_API_Display.entitlements */,
+				D79A59662AD0B2B3005F74BC /* Preview Content */,
+			);
+			path = "Valorant Agents API Display";
+			sourceTree = "<group>";
+		};
+		D79A59662AD0B2B3005F74BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D79A59672AD0B2B4005F74BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D79A59702AD0B2B4005F74BC /* Valorant Agents API DisplayTests */ = {
+			isa = PBXGroup;
+			children = (
+				D79A59712AD0B2B4005F74BC /* Valorant_Agents_API_DisplayTests.swift */,
+			);
+			path = "Valorant Agents API DisplayTests";
+			sourceTree = "<group>";
+		};
+		D79A597A2AD0B2B4005F74BC /* Valorant Agents API DisplayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D79A597B2AD0B2B4005F74BC /* Valorant_Agents_API_DisplayUITests.swift */,
+				D79A597D2AD0B2B4005F74BC /* Valorant_Agents_API_DisplayUITestsLaunchTests.swift */,
+			);
+			path = "Valorant Agents API DisplayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D79A595B2AD0B2B1005F74BC /* Valorant Agents API Display */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79A59812AD0B2B4005F74BC /* Build configuration list for PBXNativeTarget "Valorant Agents API Display" */;
+			buildPhases = (
+				D79A59582AD0B2B1005F74BC /* Sources */,
+				D79A59592AD0B2B1005F74BC /* Frameworks */,
+				D79A595A2AD0B2B1005F74BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Valorant Agents API Display";
+			productName = "Valorant Agents API Display";
+			productReference = D79A595C2AD0B2B1005F74BC /* Valorant Agents API Display.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D79A596C2AD0B2B4005F74BC /* Valorant Agents API DisplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79A59842AD0B2B4005F74BC /* Build configuration list for PBXNativeTarget "Valorant Agents API DisplayTests" */;
+			buildPhases = (
+				D79A59692AD0B2B4005F74BC /* Sources */,
+				D79A596A2AD0B2B4005F74BC /* Frameworks */,
+				D79A596B2AD0B2B4005F74BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D79A596F2AD0B2B4005F74BC /* PBXTargetDependency */,
+			);
+			name = "Valorant Agents API DisplayTests";
+			productName = "Valorant Agents API DisplayTests";
+			productReference = D79A596D2AD0B2B4005F74BC /* Valorant Agents API DisplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D79A59762AD0B2B4005F74BC /* Valorant Agents API DisplayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79A59872AD0B2B4005F74BC /* Build configuration list for PBXNativeTarget "Valorant Agents API DisplayUITests" */;
+			buildPhases = (
+				D79A59732AD0B2B4005F74BC /* Sources */,
+				D79A59742AD0B2B4005F74BC /* Frameworks */,
+				D79A59752AD0B2B4005F74BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D79A59792AD0B2B4005F74BC /* PBXTargetDependency */,
+			);
+			name = "Valorant Agents API DisplayUITests";
+			productName = "Valorant Agents API DisplayUITests";
+			productReference = D79A59772AD0B2B4005F74BC /* Valorant Agents API DisplayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D79A59542AD0B2B1005F74BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D79A595B2AD0B2B1005F74BC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D79A596C2AD0B2B4005F74BC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D79A595B2AD0B2B1005F74BC;
+					};
+					D79A59762AD0B2B4005F74BC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D79A595B2AD0B2B1005F74BC;
+					};
+				};
+			};
+			buildConfigurationList = D79A59572AD0B2B1005F74BC /* Build configuration list for PBXProject "Valorant Agents API Display" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D79A59532AD0B2B1005F74BC;
+			productRefGroup = D79A595D2AD0B2B1005F74BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D79A595B2AD0B2B1005F74BC /* Valorant Agents API Display */,
+				D79A596C2AD0B2B4005F74BC /* Valorant Agents API DisplayTests */,
+				D79A59762AD0B2B4005F74BC /* Valorant Agents API DisplayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D79A595A2AD0B2B1005F74BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79A59682AD0B2B4005F74BC /* Preview Assets.xcassets in Resources */,
+				D79A59642AD0B2B3005F74BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79A596B2AD0B2B4005F74BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79A59752AD0B2B4005F74BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D79A59582AD0B2B1005F74BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79A598F2AD0B961005F74BC /* ValorantView.swift in Sources */,
+				D79A598B2AD0B327005F74BC /* ValorantModel.swift in Sources */,
+				D79A598D2AD0B8FF005F74BC /* ValorantListViewModel.swift in Sources */,
+				D79A59912AD0BB5C005F74BC /* ValorantDetailView.swift in Sources */,
+				D79A59932AD0BB92005F74BC /* ValorantDetailViewModel.swift in Sources */,
+				D79A59602AD0B2B1005F74BC /* Valorant_Agents_API_DisplayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79A59692AD0B2B4005F74BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79A59722AD0B2B4005F74BC /* Valorant_Agents_API_DisplayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79A59732AD0B2B4005F74BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79A597C2AD0B2B4005F74BC /* Valorant_Agents_API_DisplayUITests.swift in Sources */,
+				D79A597E2AD0B2B4005F74BC /* Valorant_Agents_API_DisplayUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D79A596F2AD0B2B4005F74BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D79A595B2AD0B2B1005F74BC /* Valorant Agents API Display */;
+			targetProxy = D79A596E2AD0B2B4005F74BC /* PBXContainerItemProxy */;
+		};
+		D79A59792AD0B2B4005F74BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D79A595B2AD0B2B1005F74BC /* Valorant Agents API Display */;
+			targetProxy = D79A59782AD0B2B4005F74BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D79A597F2AD0B2B4005F74BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D79A59802AD0B2B4005F74BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D79A59822AD0B2B4005F74BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Valorant Agents API Display/Valorant_Agents_API_Display.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Valorant Agents API Display/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CU-Boulder.Valorant-Agents-API-Display";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D79A59832AD0B2B4005F74BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Valorant Agents API Display/Valorant_Agents_API_Display.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Valorant Agents API Display/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CU-Boulder.Valorant-Agents-API-Display";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D79A59852AD0B2B4005F74BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CU-Boulder.Valorant-Agents-API-DisplayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Valorant Agents API Display.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Valorant Agents API Display";
+			};
+			name = Debug;
+		};
+		D79A59862AD0B2B4005F74BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CU-Boulder.Valorant-Agents-API-DisplayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Valorant Agents API Display.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Valorant Agents API Display";
+			};
+			name = Release;
+		};
+		D79A59882AD0B2B4005F74BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CU-Boulder.Valorant-Agents-API-DisplayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Valorant Agents API Display";
+			};
+			name = Debug;
+		};
+		D79A59892AD0B2B4005F74BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CU-Boulder.Valorant-Agents-API-DisplayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Valorant Agents API Display";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D79A59572AD0B2B1005F74BC /* Build configuration list for PBXProject "Valorant Agents API Display" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79A597F2AD0B2B4005F74BC /* Debug */,
+				D79A59802AD0B2B4005F74BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79A59812AD0B2B4005F74BC /* Build configuration list for PBXNativeTarget "Valorant Agents API Display" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79A59822AD0B2B4005F74BC /* Debug */,
+				D79A59832AD0B2B4005F74BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79A59842AD0B2B4005F74BC /* Build configuration list for PBXNativeTarget "Valorant Agents API DisplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79A59852AD0B2B4005F74BC /* Debug */,
+				D79A59862AD0B2B4005F74BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79A59872AD0B2B4005F74BC /* Build configuration list for PBXNativeTarget "Valorant Agents API DisplayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79A59882AD0B2B4005F74BC /* Debug */,
+				D79A59892AD0B2B4005F74BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D79A59542AD0B2B1005F74BC /* Project object */;
+}
