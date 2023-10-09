@@ -19,9 +19,9 @@ struct ValorantDetailView: View {
             Text("Name: \(viewModel.agent.displayName)")
                 .font(.title)
                 .padding(.vertical, 10)
-//            Text("Role: \(viewModel.agent.role.displayName)")
-//                .font(.headline)
-//                .padding(.vertical, 5)
+            Text("Role: \(viewModel.agent.role.displayName)")
+                .font(.headline)
+                .padding(.vertical, 5)
             Text("Description: \(viewModel.agent.description)")
                 .font(.headline)
                 .padding(.vertical, 5)
@@ -43,13 +43,11 @@ struct ValorantDetailView_Previews: PreviewProvider {
             
             uuid: "e370fa57-4757-3604-3648-499e1f642d3f",
             displayName: "Gekko",
-//            role: Role{
-//                displayName;
-//            },
+            role: Role(
+                displayName: "Initator",
+                description: "Description"
+            ),
 
-//            role: Role{
-//                displayName: "Initiator"
-//            },
             description: "Gekko the Angeleno leads a tight-knit crew of calamitous creatures. His buddies bound forward, scattering enemies out of the way, with Gekko chasing them down to regroup and go again."
 
 //            abilities: [Abilities](
