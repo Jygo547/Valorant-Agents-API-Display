@@ -17,18 +17,23 @@ struct Agents: Codable, Identifiable {
     
     var uuid: String
     var displayName: String
-    //var displayIcon:
-    var role: String
+//    var displayIcon:
+//    var role: Role
     var description: String
-    var abilities: Abilities
+//    var abilities: [Abilities]
     
     var id: String {uuid}
     
 }
 
-struct Abilities: Codable {
-    var slot: String
-    var displayName: String
-    var description: String
-    //var displayIcon:
-}
+//struct Abilities: Codable {
+//    var slot: String
+//    var displayName: String
+//    var description: String
+//    //var displayIcon:
+//}
+//
+//struct Role: Codable {
+//    var displayName: String
+//    var description: String
+//}

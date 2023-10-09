@@ -19,6 +19,7 @@ class ValorantListViewModel: ObservableObject {
                         DispatchQueue.main.async {
                             self.agents = decodedData.data
                         }
+                        print("My data: \(self)")
                     } catch {
                         print("Error decoding data: \(error)")
                     }
@@ -27,5 +28,7 @@ class ValorantListViewModel: ObservableObject {
                 }
             }.resume()
         }
+        
     }
+    
 }
